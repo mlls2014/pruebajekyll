@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PAGE-TITLE"
-permalink: /URL-PATH
+title: "Prueba"
+permalink: /prueba
 ---
 This is the prueba Jekyll theme. 
