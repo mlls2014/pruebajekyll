@@ -40,7 +40,7 @@ locale: "es-ES"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 name: "Pepito Grillo"
 search: true
-repository: "mlls2014/pruebajekyll"
+#repository: "mlls2014/pruebajekyll"
 
 
 # Exclude from processing.
@@ -62,3 +62,24 @@ repository: "mlls2014/pruebajekyll"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections_dir: cursos
+
+collections:
+  bd:
+    output: true
+    permalink: /cursos/:path
+
+# defaults:
+# - scope:
+#     path: ""
+#     type: bd
+#   values:
+#     layout: single
+#     classes: wide
+#     read_time: false
+#     author_profile: false
+#     share: false
+#     comments: false
+#     sidebar:
+#       nav: "bd"

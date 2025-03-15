@@ -1,6 +1,6 @@
 ---
-layout: single
-author_profile: true
+layout: single2
+#author_profile: true
 classes: wide
 ---
 # Plataforma Educativa Informática
@@ -10,5 +10,5 @@ Bienvenidos a PLEDIN, Plataforma Educativa Informática. Esta plataforma está m
 
 ## Virtualización
 
-* [Curso: Introducción a Proxmox VE. CEP Castilleja de la Cuesta. (2022)](cursos/bd/index.html)
+* [Curso: Introducción a Proxmox VE. CEP Castilleja de la Cuesta. (2022)](/cursos/bd/index)
 
