@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single2
 title:  "Segundo"
 date:   2025-02-14 17:26:36 +0100
 categories: jekyll update

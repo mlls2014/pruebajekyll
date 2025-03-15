@@ -29,12 +29,18 @@ url: "https://mlls2014.github.io/pruebajekyll/" # the base hostname & protocol f
 twitter_username: jekyllrb
 github_username:  jekyll
 
+timezone: Europe/Madrid
+
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
-
+locale: "es-ES"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+name: "Pepito Grillo"
+search: true
+repository: "mlls2014/pruebajekyll"
 
 
 # Exclude from processing.

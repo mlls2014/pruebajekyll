@@ -1,0 +1,54 @@
+main:
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/
+  - title: "Collections"
+    url: /collection-archive/
+    
+
+bd:
+  - title: "Introducción a Podman"
+    children:
+      - title: Índice
+        url: /cursos/bd/index.html
+  - title: "Introducción a Podman"
+    children:
+      - title: "Introducción a los contenedores OCI"
+        url: /cursos/bd/contenido/ud1/01_contenedores.html
+      - title: "Aplicaciones para trabajar con contenedores OCI"
+        url: /cursos/bd/contenido/modulo1/02_aplicaciones.html
+      - title: "Introducción de Podman"
+        url: /cursos/bd/contenido/modulo1/03_podman.html
+      - title: "Instalación de Podman en Linux"
+        url: /cursos/bd/contenido/modulo1/04_linux.html
+      - title: "Instalación de Podman en Windows/macOS"
+        url: /cursos/bd/contenido/modulo1/05_windows.html
+  - title: "Ejecución de contenedores OCI con Podman"
+    children:
+      - title: "El \"Hola Mundo\" en Podman"
+        url: /cursos/bd/contenido/modulo2/01_holamundo.html
+      - title: "Ejecución simple de contenedores"
+        url: /cursos/bd/contenido/modulo2/02_contenedor.html
+      - title: "Ejecución de contenedores interactivos"
+        url: /cursos/bd/contenido/modulo2/03_interactivo.html
+      - title: "Ejecución de contenedores demonios"
+        url: /cursos/bd/contenido/modulo2/04_demonio.html
+      - title: "Ejecución de un contenedor demonio con un servidor web"
+        url: /cursos/bd/contenido/modulo2/05_web.html
+      - title: "Obteniendo información de los contenedores"
+        url: /cursos/bd/contenido/modulo2/06_informacion.html
+      - title: "Configuración de contenedores"
+        url: /cursos/bd/contenido/modulo2/07_configuracion.html    
+      - title: "Ejecución de un contenedor con un servidor de base de datos"
+        url: /cursos/bd/contenido/modulo2/08_mariadb.html    
+      - title: "Modos de funcionamiento de los contenedores"
+        url: /cursos/bd/contenido/modulo2/09_funcionamiento.html
+      - title: "¿Cómo funcionan los contenedores rootless?"
+        url: /cursos/bd/contenido/modulo2/10_rootless.html
