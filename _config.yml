@@ -28,10 +28,12 @@ baseurl: "pruebajekyll" # the subpath of your site, e.g. /blog
 url: "https://mlls2014.github.io/pruebajekyll/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+paginate: 0
 
 timezone: Europe/Madrid
 
 # Build settings
+markdown: kramdown
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
@@ -51,17 +53,15 @@ search: true
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
+exclude:
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules/
+#   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+    - .jekyll-cache
 
 collections_dir: cursos
 
@@ -70,16 +70,18 @@ collections:
     output: true
     permalink: /cursos/:path
 
-# defaults:
-# - scope:
-#     path: ""
-#     type: bd
-#   values:
-#     layout: single
-#     classes: wide
-#     read_time: false
-#     author_profile: false
-#     share: false
-#     comments: false
-#     sidebar:
-#       nav: "bd"
+defaults:
+- scope:
+    path: ""
+    type: bd
+  values:
+    layout: single
+    classes: wide
+    read_time: false
+    author_profile: false
+    share: false
+    comments: false
+    sidebar:
+      nav: "bd"
+
+

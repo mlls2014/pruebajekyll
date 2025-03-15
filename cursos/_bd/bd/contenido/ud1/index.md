@@ -1,7 +1,6 @@
 ---
-layout: single2
-title: Introducción a Docker
-classes: wide
+title: Base MySQL
+permalink: /cursos/bd/contenido/ud1/index.html
 ---
 
 

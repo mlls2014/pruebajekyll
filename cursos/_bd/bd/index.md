@@ -1,14 +1,12 @@
 ---
-layout: single2
 title: MySQL BD
-classes: wide
 ---
 
 ## Unidades
 
 1. Introducción a MySQL
-    * [Introducción a los contenedores](contenido/ud1/index.html)
-    * [Introducción a Docker](contenido/modulo1/02_docker.html)
+    * [Base MySQL](contenido/ud1/index.html)
+    * [Introducción a Docker](contenido/ud1/tema.html)
     * [Instalación de Docker Engine en Linux](contenido/modulo1/03_instalacion_linux.html)
     * [Instalación de Docker Desktop en Linux](contenido/modulo1/04_desktop_linux.html)
     * [Instalación de Docker Desktop en Windows](contenido/modulo1/05_desktop_windows.html)
